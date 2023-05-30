@@ -1,0 +1,31 @@
+{
+  "name": "nodeweb",
+  "version": "0.1.0",
+  "description": "A vanilla web builder that joins SASS, TypeScript and HTML while also handles serverside scripts build with node.js (TypeScript)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thorvaldemar/nodeweb.git"
+  },
+  "keywords": [
+    "nodejs",
+    "typescript",
+    "html",
+    "css",
+    "sass",
+    "scss",
+    "javascript",
+    "web",
+    "backend",
+    "frontend"
+  ],
+  "author": "Thor Bilsby",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thorvaldemar/nodeweb/issues"
+  },
+  "homepage": "https://github.com/thorvaldemar/nodeweb#readme"
+}
