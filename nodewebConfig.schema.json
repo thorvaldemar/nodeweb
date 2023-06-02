@@ -1,0 +1,21 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://github.com/thorvaldemar/nodeweb/nodewebConfig.schema.json",
+    "title": "nodeweb",
+    "description": "A vanilla web builder that joins SASS, TypeScript and HTML while also handles serverside scripts build with node.js (TypeScript)",
+    "type": "object",
+    "properties": {
+        "input": {
+            "description": "The input path to the file/directory",
+            "type": "string"
+        },
+        "output": {
+            "description": "The output path for the file/directory",
+            "type": "string"
+        }
+    },
+    "required": [
+        "input",
+        "output"
+    ]
+}
